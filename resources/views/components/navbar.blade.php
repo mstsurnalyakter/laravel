@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <x-navbar/>
-
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/teams">Teams</a></li>
+        </ul>
+    </nav>
     {{$slot}}
 </body>
 </html>
